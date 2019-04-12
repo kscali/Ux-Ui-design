@@ -20,7 +20,7 @@
 
 h2 {
   margin-left: 10px; 
-  margin-top: 10px; 
+  margin-top: 15px; 
 }
 
 ul {
@@ -62,4 +62,16 @@ button:hover {
 footer > a {
   text-transform: uppercase;
   padding: 20px; 
+}
+
+.black-bar {
+  background: black; 
+  display: flex; 
+  color: white; 
+  justify-content: space-evenly;
+}
+
+.btn {
+  background: green; 
+  color: white; 
 }
