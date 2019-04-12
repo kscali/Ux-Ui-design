@@ -1,0 +1,65 @@
+.body-img {
+  width: 100%; 
+}
+
+.header {
+  display: flex; 
+  justify-content: space-between;
+  height: 70px; 
+}
+
+.nav-container {
+  display: flex; 
+}
+
+
+.right-navbar {
+  display: flex; 
+  justify-content: flex-end; 
+}
+
+h2 {
+  margin-left: 10px; 
+  margin-top: 10px; 
+}
+
+ul {
+  display: flex; 
+}
+
+li {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 5px; 
+}
+
+a {
+  margin-right: 10px; 
+  margin-top: 20px; 
+  color: green; 
+}
+
+a:hover {
+  color: blue; 
+}
+
+button {
+  margin: 10px 50px 0 10px;
+  width: 100px; 
+  height: 40px;
+  border: 2px solid green; 
+}
+
+button:hover {
+  background: green;
+  color: white; 
+}
+
+.right-navbar > p {
+  margin-top: 20px; 
+}
+
+footer > a {
+  text-transform: uppercase;
+  padding: 20px; 
+}
